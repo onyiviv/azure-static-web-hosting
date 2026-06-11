@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Azure Hosted Site</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 600px;
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #0078d4; /* Azure Blue */
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.1em;
+            color: #666;
+        }
+        .badge {
+            background-color: #0078d4;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            display: inline-block;
+            margin-top: 15px;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 0.8em;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Hello from Azure Blob Storage!</h1>
+        <p>This static website is hosted completely serverless. No virtual machines, no Nginx, and no Apache—just pure cloud storage efficiency.</p>
+        <span class="badge">Deployment Successful</span>
+        <div class="footer">Powered by Azure Blob Storage & GitHub</div>
+    </div>
+
+</body>
+</html>
